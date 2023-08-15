@@ -1,9 +1,12 @@
+<%= render 'layouts/logoimg' %>
+<div class="center jumbotron">
 <h1>JogTracker App</h1>
 <!--the links aren't very relevant but I introduced them to make a point -->
-   <p>Welcome to the JogTracker app! This page serves as the hub for our application,
+   <h2>Welcome to the JogTracker app! This page serves as the hub for our application,
            designed to assist you in effortlessly tracking your jogging sessions.
            JogTracker empowers users to log their jogging times and gain valuable insights into their progress. 
            Explore the features, log your runs, and uncover the benefits of a well-tracked jogging 
            routine. Happy jogging!
-    </p>
-  
+    </h2>
+<%= link_to "Sign up now!", signup_path, class: "btn btn-lg btn-primary" %>
+</div>
